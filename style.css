@@ -176,6 +176,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    position: relative;
 }
 
 .section-pic-container {
@@ -428,7 +429,7 @@ article .icon {
 
 /* End Contact Section */
 
-/* Fotter Section */
+/* Footer Section */
 
 footer {
     height: 26vh;
@@ -438,3 +439,7 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* End Footer Section */
+
+/* End Sections */
