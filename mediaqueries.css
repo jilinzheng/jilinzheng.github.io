@@ -29,11 +29,14 @@
     }
     section {
         margin: 0 5%;
+        margin-top: 3rem;
     }
-    .section-pic-container {
-        width: 275px;
-        height: 275px;
+    .profile-pic-container, .about-pic-container {
+        width: 80vw;
+        height: 80vw;
         margin: 0 auto 2rem;
+        justify-content: center;
+        margin-top: 1rem;
     }
     .about-containers{
         margin-top: 0;
@@ -75,10 +78,11 @@
         gap: 0.5rem;
         text-align: center;
     }
-    .section-pic-container {
-        width: auto;
-        height: 46vw;
+    .profile-pic-container, .about-pic-container {
+        width: 80vw;
+        height: 80vw;
         justify-content: center;
+        margin-top: 1rem;
     }
     .section-text-p2 {
         font-size: 1.25rem;
