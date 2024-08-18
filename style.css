@@ -15,6 +15,7 @@ html {
 p {
     color: rgb(85,85,85);
     font-size: large;
+    text-align: left;
 }
 /* End General */
 
@@ -123,17 +124,17 @@ a:hover {
 }
 /* End Hamburger Menu */
 
-/* Icons */
+/* Icons & Arrows*/
 .icon {
     cursor: pointer;
     height: 2rem;
 }
-.arrow {
+.arrow-down {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
 }
-/* End Icons */
+/* End Icons & Arrows */
 
 /* Sections */
 section {
@@ -142,6 +143,7 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    justify-content: center;
 }
 .section-container {
     display: flex;
@@ -254,17 +256,9 @@ section {
 .about-pic {
     border-radius: 2rem;
 }
-/*
-.section-container {
-    gap: 4rem;
-    height: 80%
+.center-p-element {
+    text-align: center;
 }
-.section-pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-*/
 /* End About Section */
 
 /* Skills Section */
@@ -288,12 +282,12 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: center;
 }
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: left;
     gap: 0.5rem;
 }
 article .icon {
