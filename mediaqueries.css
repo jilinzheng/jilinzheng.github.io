@@ -15,13 +15,13 @@
     #hamburger-nav {
         display: flex;
     }
-    #skills, .skills-details-container {
+    #experiences, .experiences-details-container {
         margin-top: 2rem;
     }
     #profile, .section-container {
         display: block;
     }
-    .arrow {
+    .arrow-down {
         display: none;
     }
     section, .section-container{
@@ -37,6 +37,8 @@
         margin: 0 auto 2rem;
         justify-content: center;
         margin-top: 1rem;
+        max-width: 400px;
+        max-height:400px;
     }
     .about-containers{
         margin-top: 0;
@@ -67,7 +69,7 @@
     .contact-info-container p, .nav-links li a {
         font-size: 1rem;
     }
-    .skills-subtitle {
+    .experiences-subtitle {
         font-size: 1.25rem;
     }
     .logo {
